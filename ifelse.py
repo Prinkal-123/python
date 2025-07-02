@@ -1,6 +1,9 @@
-age = int(input("Enter your age: "))
-if age < 18:
-    print("you are a minor.")
+marks = int (input("marks: "))
+if(marks >=90) :
+    print("A")
+elif(marks >=80 and marks < 90) :
+    print("B")
+elif(marks >=70 and marks < 80) : 
+     print("C")
 else:
-    print("you are an adult.") 
-      
+     print("D")
